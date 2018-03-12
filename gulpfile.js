@@ -111,7 +111,7 @@ gulp.task('browser-sync', function () {
 
 
 // Build
-gulp.task('build', ['clean', 'img', 'stylus', 'css-min', 'scripts'], function() {
+gulp.task('build', ['clear', 'clean', 'img', 'stylus', 'css-min', 'scripts'], function() {
 
 	var buildCss = gulp.src('app/css/styles.min.css')
 	.pipe(gulp.dest('dist/css'))
