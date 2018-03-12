@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@font-face {
+  font-family: Gotham;
+  src: url("../fonts/Gotham/GothamGothaProBol.otf");
+}
+a {
+  text-decoration: none !important;
+}
+body {
+  background-color: #fff;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  transition: 1s ease-out 0.5s;
+}
+.header {
+  min-height: 90px;
+}
+.header__logo {
+  padding-top: 23.5px;
+}
+.header__media {
+  line-height: 90px;
+  text-align: right;
+}
+.header__media_media-icon {
+  width: 27px;
+  margin: 0 25px 0 0;
+}
+.instagram {
+  margin: 0 !important;
+}
+.header__call-back {
+  line-height: 90px;
+  font-size: 18px;
+  color: #000;
+  font-family: 'Open Sans', Semibold;
+}
+.header__call-back a:hover {
+  color: #22a9d3;
+}
+.header__new-order {
+  position: absolute;
+  top: 20px;
+  background-color: #22a9d3;
+  padding: 12px 20px;
+  border-radius: 50px;
+  border: 2px solid #22a9d3;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Open Sans', Semibold;
+  transition: 1s ease-out 0.5s;
+}
+.header__new-order:hover {
+  border: 2px solid #22a9d3;
+  color: #22a9d3;
+  background-color: #fff;
+}
+.header__counter {
+  line-height: 90px;
+}
+.header__counter .header__counter_message_number,
+.header__counter .header__counter_bell_number {
+  position: relative;
+  top: -15px;
+  border-radius: 100%;
+  padding: 4px 4px;
+  font-size: 10px;
+  color: #fff;
+}
+.header__counter .header__counter_message_number {
+  background-color: #22a9d3;
+}
+.header__counter .header__counter_bell_number {
+  background-color: #e05f5f;
+}
+.header__user {
+  line-height: 90px;
+  float: right;
+}
+.header__user_avatar {
+  padding-left: 8px;
+  opacity: 0.9;
+}
+.header__user_select {
+  padding-left: 5px;
+}
+.content {
+  height: auto;
+  background: url("../img/men.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.content__wrapper {
+  background: rgba(34,42,74,0.7);
+  height: 100vh;
+}
+.content__list-group {
+  max-width: 255px;
+  height: 100vh;
+  background-color: #fff;
+  margin-left: -15px;
+  box-shadow: inset 0 9px 9px 0px rgba(0,0,0,0.2);
+}
+.menu-line {
+  margin-top: 50px !important;
+  margin-bottom: 40px !important;
+  border: 1px solid #d9d9d9 !important;
+  width: 80% !important;
+  margin-left: 0%;
+}
+.content__info {
+  margin-top: 22px;
+  font-size: 16px;
+}
+.content__info .content__info_breadcrumbs {
+  color: #fff;
+span
+  opacity: 0.2;
+}
+.content__info .content__info_breadcrumbs .content__info_breadcrumbs_prev {
+  text-decoration: underline !important;
+}
+.content__info .content__info_breadcrumbs .flush {
+  margin: 0 15px;
+  color: #fff;
+  opacity: 0.5;
+  text-decoration: none !important;
+}
+.content__info .content__info_breadcrumbs .content__info_breadcrumbs_next {
+  text-decoration: none !important;
+  opacity: 0.5;
+}
+.content__info .content__info_desc {
+  color: #fff;
+  opacity: 0.7;
+  margin-top: 50px;
+  font-family: 'Open Sans', light;
+}
+.content__info .content__info_title {
+  margin-bottom: 75px;
+}
+.content__info .content__info_title h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Gotham';
+}
+.content__info_creat {
+  color: #fff;
+  opacity: 0.9;
+}
+.content__info_button {
+  margin-top: 35px;
+}
+.new-order {
+  display: none;
+  position: absolute;
+  right: 0;
+}
+.close-form {
+  padding: 5px !important;
+}
+form {
+  height: 670px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+form h2 {
+  margin-bottom: 30px;
+  color: #424242;
+  position: relative;
+  top: 15px;
+  left: 60px;
+  display: inline-block;
+}
+form .form-group {
+  margin-bottom: 40px;
+}
+.form-control_work {
+  width: 90% !important;
+  height: 60px !important;
+  background-color: #f9f9f9 !important;
+  margin-left: 5%;
+  font-size: 16px;
+}
+.form-group_subject {
+  height: 60px !important;
+  width: 55% !important;
+  margin-left: 5% !important;
+  float: left !important;
+  background-color: #f9f9f9 !important;
+}
+.form-group_subject_number {
+  height: 60px !important;
+  width: 25% !important;
+  margin-right: 5% !important;
+  float: right !important;
+  background-color: #f9f9f9 !important;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+}
+.form-group_date {
+  display: inline-block !important;
+  height: 60px !important;
+  width: 43% !important;
+  margin-left: 5% !important;
+  background-color: #f9f9f9 !important;
+}
+.form-group_file {
+  display: inline-block !important;
+  height: 60px !important;
+  width: 40% !important;
+  margin: 0px 5% !important;
+  background-color: #f9f9f9 !important;
+  float: right;
+}
+.form-group_text {
+  width: 90% !important;
+  height: 60px !important;
+  background-color: #f9f9f9 !important;
+  margin-left: 5%;
+  font-size: 16px;
+}
+.form-gift {
+  display: inline-block;
+  border-bottom: 1px dashed #22a9d3;
+  margin-top: 15px;
+}
+.form-bottom {
+  margin-left: 5%;
+}
+.form-bottom {
+  margin-top: 40px;
+}
+.calc-page span {
+  position: relative;
+  top: 19px;
+  left: 14px;
+  color: #999;
+  font-size: 16px;
+}
+.group-3 {
+  margin-top: 80px;
+}
+.form-group_subject_lesson {
+  width: 90% !important;
+  height: 60px !important;
+  background-color: #f9f9f9 !important;
+  margin-left: 5%;
+}
+.form-bottom__btn {
+  background-color: #22a9d3;
+  color: #fff !important;
+  float: right;
+  margin-right: 5%;
+  padding: 15px 32px !important;
+  border-radius: 30px !important;
+}
+#promo-code {
+  display: none;
+  position: absolute;
+  left: 40px;
+  bottom: 15px;
+  margin-top: 5px;
+  text-align: center;
+  width: 200px;
+  background-color: #f9f9f9 !important;
+}
+.content__work {
+  min-height: auto;
+}
+.content__work h1 {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: 'Gotham';
+}
+.content__work h1 span {
+  color: #22a9d3;
+}
+.content__work .content__work_blog {
+  background-color: #f7f7f7;
+  border: 1px solid #d5d5d5;
+  border-radius: 10px;
+  padding: 25px;
+  min-height: 160px;
+  margin-bottom: 20px;
+}
+.content__work .content__work_blog p {
+  font-size: 14px;
+}
+.content__work .name-point {
+  color: #22a9d3;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Gotham';
+}
